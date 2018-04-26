@@ -1,0 +1,184 @@
+2018-04-26T18:51:22.669Z - info: [main] Received possible protocol arguments: 2
+2018-04-26T18:51:23.463Z - info: [ui] [AppStore] loading 0 repositories from store
+2018-04-26T18:51:23.483Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2018-04-26T18:51:23.484Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2018-04-26T18:51:23.519Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2018-04-26T18:51:23.549Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2018-04-26T18:51:24.236Z - info: [ui] launching: 1.1.1 (Windows 6.1.7601)
+2018-04-26T18:51:24.236Z - info: [ui] execPath: 'C:\Users\szelag\AppData\Local\GitHubDesktop\app-1.1.1\GitHubDesktop.exe'
+2018-04-26T18:51:24.238Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2018-04-26T18:51:24.303Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2018-04-26T18:51:25.395Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.763s)
+2018-04-26T18:51:43.931Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2018-04-26T18:51:47.337Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2018-04-26T18:52:03.938Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2018-04-26T18:52:13.311Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2018-04-26T18:52:13.474Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2018-04-26T18:52:14.329Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2018-04-26T18:52:20.635Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2018-04-26T18:52:20.735Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2018-04-26T18:52:52.719Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2018-04-26T18:52:56.056Z - info: [ui] [Welcome] advancing to step: UsageOptOut
+2018-04-26T18:53:08.086Z - info: [ui] Opt out reported.
+2018-04-26T18:55:40.767Z - info: [ui] [AppStore] adding repository at C:\Users\szelag\openhab2-master2\git\openhab2-addons to store
+2018-04-26T18:55:41.903Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.116s)
+2018-04-26T18:55:50.047Z - info: [ui] Executing getStatus: git status --untracked-files=all --branch --porcelain=2 -z (took 9.233s)
+2018-04-26T18:55:50.254Z - info: [ui] Executing getStatus: git status --untracked-files=all --branch --porcelain=2 -z (took 8.349s)
+2018-04-26T18:58:00.113Z - info: [ui] Executing push: git -c credential.helper= push origin master:master --progress (took 2.546s)
+2018-04-26T18:59:05.800Z - info: [ui] storing generic credentials for 'github.com' and 'szelagpiotr'
+2018-04-26T18:59:09.579Z - info: [ui] Executing push: git -c credential.helper= push origin master:master --progress (took 3.605s)
+2018-04-26T18:59:31.032Z - info: [ui] storing generic credentials for 'github.com' and 'szelagpiotr'
+2018-04-26T18:59:32.903Z - info: [ui] Executing push: git -c credential.helper= push origin master:master --progress (took 1.642s)
+2018-04-26T19:08:20.826Z - info: [ui] Executing pull: git -c credential.helper= pull --no-rebase --progress origin (took 4.730s)
+2018-04-26T19:08:20.829Z - error: [ui] `git -c credential.helper= pull --no-rebase --progress origin` exited with an unexpected code: 1.
+Updating 00717bf1c..ead0cc395
+
+remote: Counting objects: 3582, done.        
+Receiving objects:   0% (1/3582)   Receiving objects:   1% (36/3582)   Receiving objects:   2% (72/3582)   Receiving objects:   3% (108/3582)   Receiving objects:   4% (144/3582)   Receiving objects:   5% (180/3582)   Receiving objects:   6% (215/3582)   Receiving objects:   7% (251/3582)   Receiving objects:   8% (287/3582)   Receiving objects:   9% (323/3582)   Receiving objects:  10% (359/3582)   Receiving objects:  11% (395/3582)   Receiving objects:  12% (430/3582)   Receiving objects:  12% (443/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  13% (466/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  14% (502/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  15% (538/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  16% (574/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  17% (609/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  18% (645/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  19% (681/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  20% (717/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  21% (753/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  22% (789/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  23% (824/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  24% (860/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  25% (896/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  26% (932/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  27% (968/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  28% (1003/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  29% (1039/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  30% (1075/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  31% (1111/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  32% (1147/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  33% (1183/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  34% (1218/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  35% (1254/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  36% (1290/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  37% (1326/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  38% (1362/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  39% (1397/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  40% (1433/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  41% (1469/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  42% (1505/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  43% (1541/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  44% (1577/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  45% (1612/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  46% (1648/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  47% (1684/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  48% (1720/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  49% (1756/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  50% (1791/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  51% (1827/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  52% (1863/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  53% (1899/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  54% (1935/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  55% (1971/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  56% (2006/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  57% (2042/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  58% (2078/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  59% (2114/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  60% (2150/3582), 948.01 KiB | 901.00 KiB/s   Receiving objects:  61% (2186/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  62% (2221/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  63% (2257/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  64% (2293/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  65% (2329/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  66% (2365/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  67% (2400/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  68% (2436/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  69% (2472/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  70% (2508/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  71% (2544/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  72% (2580/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  73% (2615/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  74% (2651/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  75% (2687/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  76% (2723/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  77% (2759/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  78% (2794/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  79% (2830/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  80% (2866/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  81% (2902/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  82% (2938/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  83% (2974/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  84% (3009/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  85% (3045/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  86% (3081/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  87% (3117/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  88% (3153/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  89% (3188/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  90% (3224/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  91% (3260/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  92% (3296/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  93% (3332/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  94% (3368/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  95% (3403/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  96% (3439/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  97% (3475/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  98% (3511/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects:  99% (3547/3582), 1.52 MiB | 1000.00 KiB/s   remote: Total 3582 (delta 1358), reused 1358 (delta 1358), pack-reused 2223        
+Receiving objects: 100% (3582/3582), 1.52 MiB | 1000.00 KiB/s   Receiving objects: 100% (3582/3582), 1.83 MiB | 1.05 MiB/s, done.
+Resolving deltas:   0% (0/1800)   Resolving deltas:   1% (18/1800)   Resolving deltas:   2% (36/1800)   Resolving deltas:   3% (54/1800)   Resolving deltas:   4% (73/1800)   Resolving deltas:   5% (91/1800)   Resolving deltas:   6% (108/1800)   Resolving deltas:   7% (133/1800)   Resolving deltas:   8% (147/1800)   Resolving deltas:   9% (162/1800)   Resolving deltas:  10% (180/1800)   Resolving deltas:  11% (198/1800)   Resolving deltas:  12% (216/1800)   Resolving deltas:  13% (234/1800)   Resolving deltas:  14% (252/1800)   Resolving deltas:  15% (270/1800)   Resolving deltas:  16% (288/1800)   Resolving deltas:  18% (336/1800)   Resolving deltas:  19% (354/1800)   Resolving deltas:  20% (362/1800)   Resolving deltas:  22% (399/1800)   Resolving deltas:  24% (432/1800)   Resolving deltas:  25% (450/1800)   Resolving deltas:  26% (469/1800)   Resolving deltas:  27% (488/1800)   Resolving deltas:  28% (506/1800)   Resolving deltas:  29% (522/1800)   Resolving deltas:  30% (540/1800)   Resolving deltas:  31% (558/1800)   Resolving deltas:  32% (576/1800)   Resolving deltas:  33% (594/1800)   Resolving deltas:  34% (613/1800)   Resolving deltas:  35% (630/1800)   Resolving deltas:  36% (650/1800)   Resolving deltas:  37% (667/1800)   Resolving deltas:  38% (685/1800)   Resolving deltas:  39% (702/1800)   Resolving deltas:  40% (720/1800)   Resolving deltas:  41% (740/1800)   Resolving deltas:  42% (756/1800)   Resolving deltas:  43% (775/1800)   Resolving deltas:  44% (792/1800)   Resolving deltas:  45% (810/1800)   Resolving deltas:  46% (831/1800)   Resolving deltas:  47% (850/1800)   Resolving deltas:  48% (864/1800)   Resolving deltas:  49% (883/1800)   Resolving deltas:  50% (905/1800)   Resolving deltas:  51% (919/1800)   Resolving deltas:  55% (998/1800)   Resolving deltas:  56% (1013/1800)   Resolving deltas:  57% (1028/1800)   Resolving deltas:  59% (1066/1800)   Resolving deltas:  60% (1092/1800)   Resolving deltas:  61% (1106/1800)   Resolving deltas:  62% (1116/1800)   Resolving deltas:  64% (1155/1800)   Resolving deltas:  65% (1171/1800)   Resolving deltas:  66% (1196/1800)   Resolving deltas:  67% (1217/1800)   Resolving deltas:  68% (1225/1800)   Resolving deltas:  69% (1242/1800)   Resolving deltas:  70% (1260/1800)   Resolving deltas:  71% (1280/1800)   Resolving deltas:  72% (1299/1800)   Resolving deltas:  73% (1314/1800)   Resolving deltas:  74% (1340/1800)   Resolving deltas:  75% (1350/1800)   Resolving deltas:  76% (1368/1800)   Resolving deltas:  77% (1386/1800)   Resolving deltas:  78% (1406/1800)   Resolving deltas:  79% (1422/1800)   Resolving deltas:  80% (1443/1800)   Resolving deltas:  81% (1458/1800)   Resolving deltas:  82% (1476/1800)   Resolving deltas:  83% (1494/1800)   Resolving deltas:  84% (1513/1800)   Resolving deltas:  85% (1530/1800)   Resolving deltas:  86% (1548/1800)   Resolving deltas:  87% (1566/1800)   Resolving deltas:  89% (1602/1800)   Resolving deltas:  90% (1620/1800)   Resolving deltas:  91% (1638/1800)   Resolving deltas:  92% (1656/1800)   Resolving deltas:  93% (1674/1800)   Resolving deltas:  94% (1692/1800)   Resolving deltas:  95% (1710/1800)   Resolving deltas:  96% (1731/1800)   Resolving deltas:  97% (1746/1800)   Resolving deltas:  98% (1764/1800)   Resolving deltas:  99% (1782/1800)   Resolving deltas: 100% (1800/1800)   Resolving deltas: 100% (1800/1800), completed with 673 local objects.
+From https://github.com/openhab/openhab2-addons
+   00717bf1c..ead0cc395  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+	addons/binding/org.openhab.binding.fronius/README.md
+	addons/binding/org.openhab.binding.fronius/src/main/java/org/openhab/binding/fronius/handler/FroniusBaseThingHandler.java
+	addons/binding/org.openhab.binding.fronius/src/main/java/org/openhab/binding/fronius/handler/FroniusBridgeHandler.java
+	addons/binding/org.openhab.binding.fronius/src/main/java/org/openhab/binding/fronius/handler/FroniusSymoInverterHandler.java
+	addons/binding/org.openhab.binding.vitotronic/ESH-INF/thing/bridge.xml
+	addons/binding/org.openhab.binding.zway/ESH-INF/i18n/zway.properties
+	addons/binding/org.openhab.binding.zway/ESH-INF/i18n/zway_de.properties
+	addons/binding/org.openhab.binding.zway/about.html
+	addons/binding/pom.xml
+Please commit your changes or stash them before you merge.
+error: The following untracked working tree files would be overwritten by merge:
+	addons/binding/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/config/AVMFritzConfiguration.java
+	addons/binding/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/hardware/FritzAhaContentExchange.java
+	addons/binding/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/hardware/FritzAhaWebInterface.java
+Please move or remove them before you merge.
+Aborting
+
+2018-04-26T19:09:11.330Z - info: [ui] [AppStore] adding account szelagpiotr (szelagpiotr) to store
+2018-04-26T19:10:32.780Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: openhab2-addons - szelagpiotr (has token)
+2018-04-26T19:10:45.090Z - info: [main] opening in browser: https://github.com/openhab/openhab2-addons
+2018-04-26T19:14:58.786Z - info: [ui] [AppStore] adding repository at C:\Users\szelag\openhab2-master2\git\openhab2-addons to store
+2018-04-26T19:15:21.552Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 2.107s)
+2018-04-26T19:15:27.098Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: openhab2-addons - szelagpiotr (has token)
+2018-04-26T19:15:29.212Z - info: [ui] Executing pull: git -c credential.helper= pull --no-rebase --progress origin (took 1.980s)
+2018-04-26T19:15:29.214Z - error: [ui] `git -c credential.helper= pull --no-rebase --progress origin` exited with an unexpected code: 1.
+Updating 00717bf1c..ead0cc395
+
+error: Your local changes to the following files would be overwritten by merge:
+	addons/binding/org.openhab.binding.fronius/README.md
+	addons/binding/org.openhab.binding.fronius/src/main/java/org/openhab/binding/fronius/handler/FroniusBaseThingHandler.java
+	addons/binding/org.openhab.binding.fronius/src/main/java/org/openhab/binding/fronius/handler/FroniusBridgeHandler.java
+	addons/binding/org.openhab.binding.fronius/src/main/java/org/openhab/binding/fronius/handler/FroniusSymoInverterHandler.java
+	addons/binding/org.openhab.binding.vitotronic/ESH-INF/thing/bridge.xml
+	addons/binding/org.openhab.binding.zway/ESH-INF/i18n/zway.properties
+	addons/binding/org.openhab.binding.zway/ESH-INF/i18n/zway_de.properties
+	addons/binding/org.openhab.binding.zway/about.html
+	addons/binding/pom.xml
+Please commit your changes or stash them before you merge.
+error: The following untracked working tree files would be overwritten by merge:
+	addons/binding/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/config/AVMFritzConfiguration.java
+	addons/binding/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/hardware/FritzAhaContentExchange.java
+	addons/binding/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/hardware/FritzAhaWebInterface.java
+Please move or remove them before you merge.
+Aborting
+
+2018-04-26T19:15:41.289Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: openhab2-addons - szelagpiotr (has token)
+2018-04-26T19:15:48.946Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: openhab2-addons - szelagpiotr (has token)
+2018-04-26T19:15:50.758Z - info: [ui] Executing push: git -c credential.helper= push origin szelag --set-upstream --progress (took 1.738s)
+2018-04-26T19:31:35.666Z - info: [main] Received possible protocol arguments: 4
+2018-04-26T19:31:35.666Z - info: [main] Processing protocol url
+2018-04-26T19:31:35.691Z - warn: [ui] Open Repository from URL failed, did not find repository: https://github.com/szelagpiotr/victron.git - payload: {"name":"open-repository-from-url","url":"https://github.com/szelagpiotr/victron.git"}
+2018-04-26T19:32:36.416Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/szelagpiotr/cp_ve.git - szelagpiotr (has token)
+2018-04-26T19:32:37.554Z - info: [ui] Executing clone: git -c credential.helper= clone --recursive --progress -- https://github.com/szelagpiotr/cp_ve.git C:\Users\szelag\openhab2-master2\git\openhab2-addons\addons\binding\org.openhab.binding.victronenergy\cp_ve (took 1.130s)
+2018-04-26T19:32:37.633Z - info: [ui] [AppStore] adding repository at C:\Users\szelag\openhab2-master2\git\openhab2-addons\addons\binding\org.openhab.binding.victronenergy\cp_ve to store
+2018-04-26T19:33:29.168Z - info: [main] opening in browser: https://github.com/szelagpiotr/cp_ve
+2018-04-26T19:33:52.066Z - info: [main] Received possible protocol arguments: 4
+2018-04-26T19:33:52.066Z - info: [main] Processing protocol url
+2018-04-26T19:33:53.646Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.083s)
+2018-04-26T19:35:27.762Z - info: [ui] [AppStore] adding repository at C:\Users\szelag\openhab2-master2\git\openhab2-addons to store
+2018-04-26T19:35:50.474Z - info: [main] opening in browser: https://github.com/openhab/openhab2-addons
+2018-04-26T19:37:07.616Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: openhab2-addons - szelagpiotr (has token)
+2018-04-26T19:37:07.800Z - error: [ui] `git -c credential.helper= checkout --progress moj --` exited with an unexpected code: 1.
+error: Your local changes to the following files would be overwritten by checkout:
+	addons/binding/org.openhab.binding.fronius/README.md
+	addons/binding/org.openhab.binding.fronius/src/main/java/org/openhab/binding/fronius/handler/FroniusBaseThingHandler.java
+	addons/binding/org.openhab.binding.fronius/src/main/java/org/openhab/binding/fronius/handler/FroniusBridgeHandler.java
+	addons/binding/org.openhab.binding.fronius/src/main/java/org/openhab/binding/fronius/handler/FroniusSymoInverterHandler.java
+	addons/binding/org.openhab.binding.vitotronic/ESH-INF/thing/bridge.xml
+	addons/binding/org.openhab.binding.zway/ESH-INF/i18n/zway.properties
+	addons/binding/org.openhab.binding.zway/ESH-INF/i18n/zway_de.properties
+	addons/binding/org.openhab.binding.zway/about.html
+	addons/binding/pom.xml
+Please commit your changes or stash them before you switch branches.
+error: The following untracked working tree files would be overwritten by checkout:
+	addons/binding/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/config/AVMFritzConfiguration.java
+	addons/binding/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/hardware/FritzAhaContentExchange.java
+	addons/binding/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/hardware/FritzAhaWebInterface.java
+Please move or remove them before you switch branches.
+Aborting
+
+2018-04-26T19:39:22.360Z - info: [ui] [AppStore] adding repository at C:\Users\szelag\openhab2-master2\git\openhab2-addons to store
+2018-04-26T19:39:23.666Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.286s)
+2018-04-26T19:41:55.132Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: openhab2-addons - szelagpiotr (has token)
+2018-04-26T19:41:56.800Z - info: [ui] Executing push: git -c credential.helper= push origin szelag --set-upstream --progress (took 1.625s)
+2018-04-26T19:43:51.272Z - info: [ui] [AppStore] adding repository at C:\1\org.openhab.binding.victronenergy\test2 to store
+2018-04-26T19:44:14.589Z - info: [ui] Executing push: git -c credential.helper= push origin master --set-upstream --progress (took 6.311s)
+2018-04-26T19:44:15.807Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.205s)
+2018-04-26T19:45:32.465Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: test2 - szelagpiotr (has token)
+2018-04-26T19:45:33.788Z - info: [ui] Executing pull: git -c credential.helper= pull --no-rebase --progress origin (took 1.211s)
+2018-04-26T19:46:10.163Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: test2 - szelagpiotr (has token)
+2018-04-26T19:46:11.885Z - info: [ui] Executing pull: git -c credential.helper= pull --no-rebase --progress origin (took 1.579s)
+2018-04-26T19:46:37.709Z - info: [main] Received possible protocol arguments: 4
+2018-04-26T19:46:37.710Z - info: [main] Processing protocol url
+2018-04-26T19:46:43.536Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: test2 - szelagpiotr (has token)
+2018-04-26T19:46:44.721Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.131s)
+2018-04-26T19:48:18.782Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: test2 - szelagpiotr (has token)
+2018-04-26T19:48:20.534Z - info: [ui] Executing push: git -c credential.helper= push origin master:master --progress (took 1.703s)
+2018-04-26T19:48:21.649Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.097s)
+2018-04-26T19:50:07.331Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: test2 - szelagpiotr (has token)
+2018-04-26T19:50:11.513Z - info: [ui] Executing push: git -c credential.helper= push origin master:master --progress (took 4.126s)
+2018-04-26T19:50:13.224Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.688s)
+2018-04-26T19:51:22.106Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: test2 - szelagpiotr (has token)
+2018-04-26T19:51:45.146Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: test2 - szelagpiotr (has token)
+2018-04-26T19:51:49.652Z - info: [ui] Executing push: git -c credential.helper= push origin aaaa --set-upstream --progress (took 4.450s)
+2018-04-26T19:52:40.280Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: test2 - szelagpiotr (has token)
+2018-04-26T19:52:41.661Z - info: [ui] Executing pull: git -c credential.helper= pull --no-rebase --progress origin (took 1.227s)
+2018-04-26T19:56:56.454Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.173s)
+2018-04-26T19:59:20.430Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/szelagpiotr/cp_ve.git - szelagpiotr (has token)
+2018-04-26T19:59:21.574Z - info: [ui] Executing clone: git -c credential.helper= clone --recursive --progress -- https://github.com/szelagpiotr/cp_ve.git C:\1\org.openhab.binding.victronenergy\cp_ve (took 1.062s)
+2018-04-26T19:59:21.678Z - info: [ui] [AppStore] adding repository at C:\1\org.openhab.binding.victronenergy\cp_ve to store
+2018-04-26T19:59:23.754Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.239s)
+2018-04-26T20:02:29.975Z - info: [ui] [AppStore] adding repository at C:\Users\szelag\openhab2-master2\git\openhab2-addons to store
+2018-04-26T20:04:21.964Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: openhab2-addons - szelagpiotr (has token)
+2018-04-26T20:04:22.217Z - error: [ui] `git -c credential.helper= checkout --progress moj --` exited with an unexpected code: 1.
+error: Your local changes to the following files would be overwritten by checkout:
+	addons/binding/org.openhab.binding.fronius/README.md
+	addons/binding/org.openhab.binding.fronius/src/main/java/org/openhab/binding/fronius/handler/FroniusBaseThingHandler.java
+	addons/binding/org.openhab.binding.fronius/src/main/java/org/openhab/binding/fronius/handler/FroniusBridgeHandler.java
+	addons/binding/org.openhab.binding.fronius/src/main/java/org/openhab/binding/fronius/handler/FroniusSymoInverterHandler.java
+	addons/binding/org.openhab.binding.vitotronic/ESH-INF/thing/bridge.xml
+	addons/binding/org.openhab.binding.zway/ESH-INF/i18n/zway.properties
+	addons/binding/org.openhab.binding.zway/ESH-INF/i18n/zway_de.properties
+	addons/binding/org.openhab.binding.zway/about.html
+	addons/binding/pom.xml
+Please commit your changes or stash them before you switch branches.
+error: The following untracked working tree files would be overwritten by checkout:
+	addons/binding/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/config/AVMFritzConfiguration.java
+	addons/binding/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/hardware/FritzAhaContentExchange.java
+	addons/binding/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/hardware/FritzAhaWebInterface.java
+Please move or remove them before you switch branches.
+Aborting
+
+2018-04-26T20:06:22.364Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: openhab2-addons - szelagpiotr (has token)
+2018-04-26T20:06:24.272Z - info: [ui] Executing push: git -c credential.helper= push origin szelag --set-upstream --progress (took 1.872s)
+2018-04-26T20:06:24.326Z - info: [main] opening in browser: https://github.com/openhab/openhab2-addons/pull/new/szelag
+2018-04-26T20:06:58.935Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.295s)
+2018-04-26T20:08:51.645Z - info: [main] opening in browser: https://github.com/szelagpiotr/test2
+2018-04-26T20:10:35.126Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.257s)
+2018-04-26T20:11:13.168Z - info: [ui] [AppStore] adding repository at C:\1\test3 to store
+2018-04-26T20:12:52.987Z - info: [ui] Executing push: git -c credential.helper= push origin master --set-upstream --progress (took 4.418s)
+2018-04-26T20:12:53.990Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.000s)
+2018-04-26T20:13:41.625Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: test3 - szelagpiotr (has token)
